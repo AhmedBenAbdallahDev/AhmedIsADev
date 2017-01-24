@@ -23,7 +23,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.10.4",
-    "uniqCompNum": 9,
+    "uniqCompNum": 10,
     "versionPublish": "3.10.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -124,8 +124,68 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Red Spear</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">CONTACT US</a></li>"
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CREDITS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(71, 85, 119);\"></span>FACEBOOK</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-9",
+          "_params": {
+            "imageSize": "70",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/scrolls-1400x444-50.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "WELCOME",
+          "text": "This is a place holder for our site that will be soon online about our game Scrolls!.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_inherit": "header1",
@@ -142,7 +202,7 @@
           "_anchor": "header4-2",
           "_params": {
             "parallax": true,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#a07e49",
@@ -152,7 +212,7 @@
               "height": 720,
               "url": "https://www.youtube.com/embed/wgPcl1WJ98Y?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
@@ -162,8 +222,8 @@
             "showButtons": true
           },
           "title": "GAME DESIGN",
-          "text": "We are happy to present to you our web site that will be our center in the future<br>pleaseignore this its just place holder text to be decided<br>at a later time in development.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+          "text": "We are happy to present to you our web site that will be our center in the future<br>please ignore this its just place holder text to be decided<br>at a later time in development.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [
@@ -192,7 +252,7 @@
           },
           "title": "PROJECT GAME",
           "text": "Place holeder text will samplesapmspekmmskslsmkf<br>sd;msdls,dlmsf,sldmfjlkdsfjlksdjf<br>df,slkdflkdsfnlkdsjfkdsjfkldsfdskfkdjfkdfdfdfdfdfdgb<br>fgfgfgfgfgfgfgfvdcxxvxcvxcvxxx<br>vvvvvvvvvvvvvvvvvvvvvcxvcxvcbvvbvbvbvbvbvb",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Facbook.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -204,7 +264,7 @@
             "imageSize": 50,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-uploads-14120938606568dde6e2b-c9e42240-2000x1333-73.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -212,7 +272,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.3,
+            "overlayOpacity": "0.6",
             "overlayColor": "#000",
             "inverse": false,
             "showTitle": true,
@@ -242,24 +302,9 @@
               "size": 250
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-6",
-          "_params": {
-            "googleMap": {
-              "address": "Tunisia,Tunis,Ouardia",
-              "placeId": "ChIJS9nfI6E2_RIRq5otIPEN5J8",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          }
+          "title": "PLACEHOLDER",
+          "text": "<p>Yup this siiss text phantom p&nbsp; &nbsp; iajjksbzjdbjksc</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_styles": {
@@ -292,6 +337,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            ".btn": {
+              "font-size": "22px"
+            }
+          },
           "_anchor": "msg-box1-8",
           "_params": {
             "paddingTop": 3,
@@ -314,19 +364,19 @@
             "showTitle": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">BACK TO TOP</a>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "PRE MADE BLOCKS",
-          "_styles": {
-            ".btn": {
-              "font-size": "22px"
-            }
-          }
+          "text": "I made this in 1 hour hehehehehahahahehahehahaha",
+          "title": "YOOLOOOOOO"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "contacts1-4",
           "_params": {
             "paddingTop": 3,
@@ -358,10 +408,20 @@
           },
           "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "<strong>Links</strong><br>\nWebsite builder<br>\nDownload for Windows<br>\nDownload for Mac",
-          "_styles": {
-            "P": {
-              "color": "#000000"
+          "text3": "<strong>Links</strong><br>\nWebsite builder<br>\nDownload for Windows<br>\nDownload for Mac"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-6",
+          "_params": {
+            "googleMap": {
+              "address": "Tunisia,Tunis,Ouardia",
+              "placeId": "ChIJS9nfI6E2_RIRq5otIPEN5J8",
+              "state": "ok",
+              "stateDetails": ""
             }
           }
         }

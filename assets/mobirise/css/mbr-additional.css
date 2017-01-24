@@ -474,6 +474,12 @@ h6,
 #menu-3 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#header2-9 .mbr-section-text {
+  color: #000000;
+}
+#header2-9 .mbr-section-title {
+  color: #000000;
+}
 #header4-2 .mbr-section-title {
   color: #b8312f;
   font-size: 84px;
