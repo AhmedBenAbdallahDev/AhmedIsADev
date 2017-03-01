@@ -132,6 +132,14 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header2-9",
           "_params": {
             "imageSize": "70",
@@ -177,15 +185,7 @@
           },
           "title": "WELCOME",
           "text": "This is a place holder for our site that will be soon online about our game Scrolls!.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-text": {
-              "color": "#000000"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_inherit": "header1",
@@ -224,35 +224,6 @@
           "title": "GAME DESIGN",
           "text": "We are happy to present to you our web site that will be our center in the future<br>please ignore this its just place holder text to be decided<br>at a later time in development.",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-0",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1479920252409-6e3d8e8d4866-2000x1333-54.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "PROJECT GAME",
-          "text": "Place holeder text will samplesapmspekmmskslsmkf<br>sd;msdls,dlmsf,sldmfjlkdsfjlksdjf<br>df,slkdflkdsfnlkdsjfkdsjfkldsfdskfkdjfkdfdfdfdfdfdgb<br>fgfgfgfgfgfgfgfvdcxxvxcvxcvxxx<br>vvvvvvvvvvvvvvvvvvvvvcxvcxvcbvvbvbvbvbvbvb",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Facbook.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -303,7 +274,7 @@
             }
           },
           "title": "PLACEHOLDER",
-          "text": "<p>Yup this siiss text phantom p&nbsp; &nbsp; iajjksbzjdbjksc</p>",
+          "text": "<p>Yup&nbsp;</p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Facebook.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
