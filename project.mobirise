@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Nour's New EN",
+    "name": "Nour's New FR",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
@@ -8,9 +8,9 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 60,
+    "uniqCompNum": 107,
     "versionPublish": "3.10.4",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/bllom-black-128x53-44.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -23,7 +23,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -81,7 +82,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "alias": "purity/components",
@@ -128,13 +129,80 @@
             "showArrow": false
           },
           "title": "Bloom<br>",
-          "text": "<font color=\"#354911\" face=\"Playfair Display, sans-serif\"><b>Mon site sur les fleurs .</b></font>",
+          "text": "<font color=\"#354911\" face=\"Playfair Display, sans-serif\"><b>BIENVENUE sur mon site a propos les fleurs .</b></font>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-secondary-outline\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes Fleurs</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Journey.html\" data-toolbar=\"-mbrBtnMove\">Mon aventure</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2m",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bloomn-265x149-29.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>\nCity: tunis,tunisia&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>",
+          "text3": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-2n",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Bloom.inc. Terms of Use  | Privacy Policy"
         }
       ]
     },
     "My flowers.html": {
-      "settings": {},
+      "settings": {
+        "order": 4
+      },
       "components": [
         {
           "_styles": {
@@ -191,7 +259,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -238,7 +306,7 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Daisy.html\" data-toolbar=\"-mbrBtnMove\">Montrer moi!</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1458907416677-c9ba97180363-2000x1125-75.jpg",
                 "contentAlign": "center",
                 "showTitle": true,
@@ -247,6 +315,17 @@
                 "text": "Cette petite fleur assez commune pousse sur<br>Plante native au sud de la Chine et est formellement appelé Murraya Paniculata et est communément connu sous le nom de jessamine orange.<br>",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Kamini.html\" data-toolbar=\"-mbrBtnMove\">Explorer!</a> "
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/jj-2000x1126-87.jpg",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Jasmin",
+                "showText": true,
+                "text": "&nbsp;'Jasminum ' &nbsp;ou tout simplent jasmin est une fleur<br>extra ordinaire globalement connu .cette eblouissante fleur présente plusieurs variations &nbsp;dans la nature .",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Découvrer!</a> "
               }
             ],
             "fullScreen": true,
@@ -259,7 +338,9 @@
       ]
     },
     "Daisy.html": {
-      "settings": {},
+      "settings": {
+        "order": 5
+      },
       "components": [
         {
           "_styles": {
@@ -316,7 +397,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -394,12 +475,29 @@
           },
           "title": "Phytothérapie (medecine herbal)",
           "text": "<span style=\"font-size: 1.25rem; line-height: 1.5;\">Bellis perennis a des propriétés astringentes et a été utilisé en phytothérapie. &nbsp;Dans la Rome antique, les chirurgiens qui accompagnaient les légions romaines dans la bataille ordonneraient à leurs esclaves de ramasser des sacs pleins de marguerites pour en extraire le jus, d'où l'origine du nom scientifique de cette plante en latin. &nbsp;Les bandages ont été trempés dans ce jus et étaient alors utilisé pour soigner les coups de lance et les blessures.</span><br><br>Bellis perennis est encore utilisé dans l'homéopathie pour les blessures et après certaines interventions chirurgicales, &nbsp;Ainsi que pour les traumatismes contondants chez les animaux . &nbsp;<br><span style=\"font-size: 1.25rem; line-height: 1.5;\">ces fleurs ont été utilisés &nbsp;aussi dans la médecine traditionnelle autrichienne ,inserée dans &nbsp;le thé (ou les feuilles en &nbsp;salade) pour le traitement des troubles des voies gastro-intestinales et respiratoires.</span><br>",
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"Daisy.html\" data-toolbar=\"-mbrBtnMove\">Sommet</a>"
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Sommet</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Retour</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-2w",
+          "_params": {
+            "googleMap": {
+              "address": "europe",
+              "placeId": "",
+              "state": "loading"
+            }
+          }
         }
       ]
     },
     "Roses.html": {
-      "settings": {},
+      "settings": {
+        "order": 7
+      },
       "components": [
         {
           "_styles": {
@@ -456,7 +554,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -467,41 +565,47 @@
           "_name": "header4",
           "_styles": {
             "H1": {
-              "color": "#edafae",
+              "color": "#ec7470",
               "font-size": "72px"
             },
             "P": {
               "color": "#000000"
+            },
+            "B": {
+              "color": "#000000",
+              "font-size": "20px"
             }
           },
           "_anchor": "header4-d",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/pink-2000x1250-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/rrr-2000x1250-98.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": "0.2",
             "overlayColor": "#ffffff",
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": false
           },
           "title": "Les Roses",
-          "text": "Les roses ont une histoire longue et colorée. Ils ont été des symboles d'amour, de beauté, de guerre &nbsp;et de politique. La rose est, selon les preuves fossiles,agée de 35 millions d'années.<br> Dans la nature, le genre Rosa compte presque &nbsp;150 espèces(les hybrides inclus) réparties dans l'hémisphère Nord,de l'Alaska au Mexique et incluant le nord de l'Afrique. La culture du jardindes roses a&nbsp;commencé il y a environ 5000 ans, probablement en Chine. Pendant la période romaine, les roses ont été cultivées largement au Moyen-Orient. Ils étaient utilisés comme confettis à des célébrations, à des fins médicinales, et comme une source de parfum. <br>La noblesse romaine établit de grands jardins publics de roses dans le sud de Rome. Après la chute de l'Empire romain, la popularité des roses semblait monter et descendre<br> selon les tendances de jardinage de l'époque.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">rose rouge&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">rose blanche</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">rose noir</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">rose orangé</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">usages</a> "
+          "text": "<b>Les roses ont une histoire longue et colorée. Ils ont été des symboles d'amour, de beauté, de guerre &nbsp;et de politique. La rose est, selon les preuves fossiles,agée de 35 millions d'années.</b><br><b> Dans la nature, le genre Rosa compte presque &nbsp;150 espèces(les hybrides inclus) réparties dans l'hémisphère Nord,de l'Alaska au Mexique et incluant le nord de l'Afrique. La culture du jardindes roses a&nbsp;commencé il y a environ 5000 ans, probablement en Chine. Pendant la période romaine, les roses ont été cultivées largement au Moyen-Orient. Ils étaient utilisés comme confettis à des célébrations, à des fins médicinales, et comme une source de parfum. <br>La noblesse romaine établit de grands jardins publics de roses dans le sud de Rome. Après la chute de l'Empire romain, la popularité des roses semblait monter et descendre</b><br><b> selon les tendances de jardinage de l'époque.</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"Red rose.html\" data-toolbar=\"-mbrBtnMove\">Rose Rouge&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"white rose.html\" data-toolbar=\"-mbrBtnMove\">R. Blanche</a>    <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"black rose.html\" data-toolbar=\"-mbrBtnMove\">R. Noir</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"rose use.html\" data-toolbar=\"-mbrBtnMove\">usages</a>   "
         }
       ]
     },
     "Kamini.html": {
-      "settings": {},
+      "settings": {
+        "order": 6
+      },
       "components": [
         {
           "_styles": {
@@ -558,7 +662,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -570,37 +674,37 @@
           "_styles": {
             "H1": {
               "text-align": "left",
-              "color": "#fbf2be",
+              "color": "#e9af2a",
               "font-size": "100px"
             },
             "P": {
-              "color": "#54a6ed",
+              "color": "#000000",
               "font-size": "25px",
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_anchor": "header4-i",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/murraya-exotica-03-2000x1333-80.jpg",
-            "bgColor": "#fff8e0",
+            "bgImage": "@PROJECT_PATH@/assets/images/zzz-kamini-high-res-2000x1500-11-2000x1500-24.jpg",
+            "bgColor": "#feeaba",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#ffffff",
-            "contentAlign": "right",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": false,
             "showArrow": false
           },
           "title": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kamini",
-          "text": "Murraya paniculata est une plante tropicale, à feuilles persistantes originaire du sud de la Chine, à Taiwan, le sous-continent indien et l'australie portant des petites fleurs blanches, parfumées, qui sont cultivé comme un arbre ornemental ou de haie. Orange jessamine, boîte chinoise, Le satinwood ou le jasmin de Lakeview sont quelques-uns de ses noms communs. Murraya est étroitement lié aux agrumes, et porte le petit orange au fruit rouge ressemblant les kumquats, bien que certains cultivars ne mettent pas le fruit. Cette fleur est assez commune et vue dans les jardins.",
+          "text": "'Murraya paniculata' est une plante tropicale, à feuilles persistantes originaire du sud de la Chine, à Taiwan, le sous-continent indien et l'australie portant des petites fleurs blanches, parfumées, qui sont cultivé comme un arbre ornemental ou de haie. Orange jessamine, boîte chinoise, Le satinwood ou le jasmin de Lakeview sont quelques-uns de ses noms communs. Murraya est étroitement lié aux agrumes, et porte le petit orange au fruit rouge ressemblant les kumquats, bien que certains cultivars ne mettent pas le fruit. Cette fleur est assez commune et vue dans les jardins.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
         },
         {
@@ -726,12 +830,29 @@
           "title": "Usage",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Traditionnellement, Murraya paniculata est utilisé à la fois en médecine traditionnelle comme un analgésique(diminue les douleurs) et pour le bois (fabrication de poignées d'outils).<span style=\"font-size: 1.25rem; line-height: 1.5;\">En Occident,elle est cultivée comme un arbre ornemental ou une haie en raison de sa rusticité, de son large éventail de tolérance au sol (M. paniculata peut se développer dans des sols alcalins, argileux, sableux, acides et loamy).</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Les fermes d'abeilles de miel ont été connues pour planter Orange Jessamine près des ruches d'abeille , Servant non seulement comme nourriture pour les abeilles, mais aussi comme protection contre les vents violents. Le miel recueilli à partir de colonies de colonies d'abeilles qui recueillent le pollen de jessamines orange, ont un gout orange.</span></p>",
-          "button": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"Kamini.html\" data-toolbar=\"-mbrBtnMove\">sommet</a>"
+          "button": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">sommet</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Retour</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-2x",
+          "_params": {
+            "googleMap": {
+              "address": "china",
+              "placeId": "",
+              "state": "loading"
+            }
+          }
         }
       ]
     },
     "Journey.html": {
-      "settings": {},
+      "settings": {
+        "order": 3
+      },
       "components": [
         {
           "_styles": {
@@ -782,13 +903,13 @@
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -943,111 +1064,10 @@
         }
       ]
     },
-    "Language.html": {
-      "settings": {},
-      "components": [
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#f2f2f2"
-            },
-            ".nav-link": {
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "menu-u",
-          "_params": {
-            "hamburgerColor": "#f2f2f2",
-            "sticky": true,
-            "transparent": true,
-            "color": "#000000",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-31.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"Language.html\">Language</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"Journey.html\">More</a></li>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-z",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#FFF8E0",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "firstType": "bg-success",
-            "showButtons": true,
-            "secondType": "bg-warning",
-            "thirdType": "bg-danger",
-            "fourthType": "bg-primary"
-          },
-          "title1": "Кгыышйт",
-          "currency1": "",
-          "price1": "Яев Орўтыўты Сркўтшсдуы<br>",
-          "period1": "",
-          "list1": "Ершы ышеу шы еужзўкйкшдн ўаа дшту аўк куйыўты,",
-          "button1": "<a data-app-btn=\"true\" href=\"WWW.Konami.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Вужў</a>",
-          "title2": "とせいたす",
-          "currency2": "",
-          "price2": "0そられせりいかい<br><br>0%<br>またせたみいとい<br><br>",
-          "period2": "",
-          "list2": "<ul class=\"list-group list-group-flush\"></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"WWW.Konami.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">しいれら</a>",
-          "title3": "English",
-          "currency3": "",
-          "price3": "English language",
-          "period3": "",
-          "list3": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\"><b>100% complete</b></li><li class=\"list-group-item\"><b>Off line</b></li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"file:///C:/Users/ElHoudaNour/Desktop/Nour's%20New%20EN/index.html\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Go</a>",
-          "title4": "Francais",
-          "currency4": "Langue Française",
-          "price4": "",
-          "period4": "",
-          "list4": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\"><b>99% Complete</b></li><li class=\"list-group-item\"><b>Hors ligne</b></li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Aller</a>"
-        }
-      ]
-    },
     "Credits.html": {
-      "settings": {},
+      "settings": {
+        "order": 2
+      },
       "components": [
         {
           "_styles": {
@@ -1104,7 +1124,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Langue</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">English<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Francais</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Credit</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -1132,15 +1152,1540 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Réalisateur",
+          "text": "Nour El Houda Ben Abdallah ,avec l'aide de son jeune frère a fondé ce site .en ajoutant quelques conseils et reccomandations de son professeur, elle a réussi à vous présenter ce<br>Site sur les fleurs ... en fait, cette idée n'a pas &nbsp;sorti de nulle part .. vérifier notre inspiration et aventure exquisite pour en savoir plus ..<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Journey.html\" data-toolbar=\"-mbrBtnMove\">aventure</a> "
+        }
+      ]
+    },
+    "Red rose.html": {
+      "settings": {
+        "order": 8
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1o",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#d9534f",
+              "text-align": "center",
+              "font-size": "46px"
+            }
+          },
+          "_anchor": "msg-box4-1p",
+          "_params": {
+            "imageSize": "21",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/ElHoudaNour/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3.jpg",
+            "bgColor": "#dddddd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/red-1400x2100-56.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "La rose rouge",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Les couleurs de fleurs de rouge, (rose, bleu et violet )proviennent principalement des pigments appelés anthocyanines, qui sont dans la classe des produits chimiques appelés flavonoïdes (ce qui donne aux plantes leur couleur).en effet,<span style=\"font-size: 1.25rem; line-height: 1.5;\">Tout au long de sa longue histoire, la rose rouge règne toujours comme le symbole ultime de l'affection passionnée. cette rose &nbsp;a commencé son histoire symbolique dans la mythologie grecque et romaine, où elle a été liée à Aphrodite, ou Vénus, la déesse de l'amour</span></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Roses.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "white rose.html": {
+      "settings": {
+        "order": 9
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1q",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#8f99af"
+            },
+            ".lead": {
+              "color": "#dddddd"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "msg-box4-1r",
+          "_params": {
+            "imageSize": "21",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/ElHoudaNour/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3_1.jpg",
+            "bgColor": "#f8f8f6",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/perf-1400x1729-35.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "La rose blanche&nbsp;",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Historiquement, la rose blanche symbolise l'innocence et la pureté, qui est la façon dont elle est devenue associée à des mariages et les bouquets de mariée. De retour en Angleterre au 14ème siècle, la rose blanche était le signe héraldique du duc d'York qui se trouvait face à face avec la famille Lancaster rouge-rose, donnant à la renommée Guerre des Roses son nom. Aujourd'hui, la rose blanche a conservé ses associations avec l'amour pur et la cérémonie formelle.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Roses.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "rose use.html": {
+      "settings": {
+        "order": 11
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1s",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center",
+              "color": "#d9534f",
+              "font-size": "84px"
+            }
+          },
+          "_anchor": "header3-1t",
+          "title": "usages des roses:",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "color": "#d9534f"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content4-1u",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/ElHoudaNour/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3_2.jpg",
+            "bgColor": "#f8c4bb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "En medecine&nbsp;",
+          "caption1": "La 'rose hip'(hanche de rose), &nbsp;est utilisée comme une source mineure de vitamine C. Les fruits de nombreuses espèces ont des niveaux significatifs de vitamines et ont été utilisés comme un complément alimentaire. Beaucoup de roses ont été utilisées dans les médicaments à base de plantes et populaires. Rosa chinensis a longtemps été utilisé dans la médecine traditionnelle chinoise. Cette espèce et d'autres ont été utilisées pour des problèmes d'estomac, et sont à l'étude pour contrôler la croissance du cancer.",
+          "title2": "En parfum",
+          "caption2": "Les parfums de rose sont fabriqués à partir d'huile de rose (également appelée attar de roses), qui est un mélange d'huiles essentielles volatiles obtenues par distillation à la vapeur des pétales de roses broyés. Un produit associé est l'eau de rose qui est utilisé pour la cuisine, les cosmétiques, la médecine et les pratiques religieuses. La technique de production est originaire de Perse puis s'est répandue en Arabie et en Inde, et plus récemment en Europe de l'Est.",
+          "title3": "En alimentation",
+          "caption3": "Les'rose hip'(Le fruit accessoire de la plante de rose ) sont parfois transformées en confiture, en gelée, en marmelade et en soupe ou sont préparées pour le thé, principalement pour leur teneur élevée en vitamine C. Ils sont également pressés et filtrés pour faire le sirop de hanche rose. Les hanches sont également utilisées pour produire de l'huile de graine de rose, qui est utilisé dans les produits pour la peau et certains produits cosmetique.<br><span style=\"font-size: 1rem; line-height: 1.5;\">L'eau de rose a une saveur très distincte et est fortement utilisée dans les plats du Moyen-Orient et de l'Asie du Sud, surtout dans les sucreries</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">les Pétales de rose &nbsp;sont parfois utilisés pour aromatiser le thé ordinaire, ou combiné avec d'autres herbes pour faire des tisanes.</span><br>",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1v",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Sommet</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"Roses.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "black rose.html": {
+      "settings": {
+        "order": 10
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1w",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#5cb85c"
+            },
+            ".lead": {
+              "color": "#dddddd"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "color": "#d8f1d5"
+            },
+            ".mbr-section-title I": {
+              "color": "#5cb85c"
+            }
+          },
+          "_anchor": "msg-box4-1x",
+          "_params": {
+            "imageSize": "21",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/ElHoudaNour/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3_3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/black-1400x1942-80.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "La rose noire<i>&nbsp;</i>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Les roses noires sont des symboles figurant dans la fiction avec beaucoup de significations différentes et des titres tels que rose noire de velours, magie noire, &nbsp;beauté noire, &nbsp;jade noir et baccara. Les roses communément appelées roses noires sont techniquement une nuance très sombre de rouge, violet ou marron. La couleur d'une rose peut être approfondie en plaçant une rose sombre dans un vase d'eau mélangé avec &nbsp;de l'encre noire. D'autres roses noires peuvent être noircies par d'autres méthodes telles que les bruler. La rose noire peut également être trouvée naturellement mais seulement en Turquie / Adana (un endroit célèbre pour sa production de coton et de rose noire).</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"Roses.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-2y",
+          "_params": {
+            "googleMap": {
+              "address": "adana,turquie",
+              "placeId": "",
+              "state": "loading"
+            }
+          }
+        }
+      ]
+    },
+    "jasmin.html": {
+      "settings": {
+        "order": 12
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1z",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#f1c050",
+              "text-align": "center",
+              "font-size": "80px"
+            },
+            "P": {
+              "font-size": "22px"
+            }
+          },
+          "_anchor": "header4-20",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jjjj-2000x1250-78.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
             "contentAlign": "left",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": false
           },
-          "title": "constructeur du site&nbsp;",
-          "text": "N our El Houda Ben Abdallah ,avec l'aide de son jeune frère a fondé ce site en ajoutant quelques conseils et reccomandations de son professeur, elle a réussi à vous présenter ce<br>Site sur les fleurs ... en fait, cette idée n'a pas &nbsp;sorti de nulle part .. vérifier notre inspiration et aventure exquisite pour en savoir plus ..<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Journey.html\" data-toolbar=\"-mbrBtnMove\">aventure</a> "
+          "title": "Jasmin",
+          "text": "<p><b>Jasmin (nom taxonomique Jasminum)est un genre d'arbustes &nbsp;dans la famille de l'olivier (Oleaceae). Il contient environ 200 espèces indigènes aux régions tropicales et tempérées chaudes de l'Eurasie, de l'Australasie et de l'Océanie. &nbsp;Jasmine peut être à feuilles caduques (feuilles tombant en automne) ou à feuilles persistantes (vert toute l'année), &nbsp;Leurs feuilles sont portées, opposées ou alternées. Ils peuvent être simples, trifoliés ou pinnés. Les fleurs ont généralement environ 2,5 cm &nbsp;de diamètre. Ils sont de couleur blanche ou jaune, bien que dans de rares cas ils peuvent être légèrement rougeâtre. Les fleurs portent &nbsp;au minimum &nbsp;trois fleurs, bien qu'elles puissent également être solitaires sur les extrémités des branches. Chaque fleur a environ quatre à neuf pétales,et un à quatre ovules. Ils ont deux étamines avec des filaments très courts. Ils sont généralement très parfumés.&nbsp;<br>Parmis ces multiple espéces ont site</b> :&nbsp;<span style=\"line-height: 1.5;\">&nbsp;&nbsp;</span><b style=\"line-height: 1.5;\"><i><a href=\"Arabian j.html\" class=\"text-white\">arabian jasmin&nbsp;</a>,<a href=\"J. officinale.html\" class=\"text-white\"> jasminum officinale</a></i></b><b style=\"line-height: 1.5;\"><i>,<a href=\"winter.html\" class=\"text-white\">nudiflorum</a>,</i></b><b style=\"line-height: 1.5;\"><i>&nbsp;<a href=\"star.html\" class=\"text-white\">multiflorum</a>.</i></b></p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">retour</a>     <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"usejas.html\" data-toolbar=\"-mbrBtnMove\">usage et culture</a>  "
+        }
+      ]
+    },
+    "J. officinale.html": {
+      "settings": {
+        "order": 13
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-21",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#edafae"
+            }
+          },
+          "_anchor": "msg-box4-24",
+          "_params": {
+            "imageSize": "20",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#dddddd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/jasmin-1400x936-88.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Jasminum officinale",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>'Jasminum officinale', connu comme le jasmin commun ou simplement le jasmin, est une espèce de plante à fleurs dans la famille oléagineuse Oleaceae. Il est originaire du Caucase, du nord de l'Iran, de l'Afghanistan, du Pakistan, de l'Himalaya, du Tadjikistan, de l'Inde, du Népal et de l'ouest de la Chine (Guizhou, Sichuan, Xizang (Tibet), Yunnan). L'espèce est également largement cultivée en de nombreux endroits et a été naturalisée en France, en Italie, au Portugal, en Roumanie, en ex-Yougoslavie, en Algérie et en Floride .<span style=\"font-size: 1.25rem; line-height: 1.5;\">Il est également connu comme le jasmin d'été, le jasmin du poète, le jasmin blanc, le jasmin vrai ou la jessamine, et est particulièrement apprécié par les jardiniers dans tout le monde tempéré pour l'odeur intense de ses fleurs en été . C'est aussi la fleur nationale du Pakistan.</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "Arabian j.html": {
+      "settings": {
+        "order": 14
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-25",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "color": "#5cb85c"
+            },
+            ".lead UL": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "msg-box4-26",
+          "_params": {
+            "imageSize": "15",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1446034295857-c39f8844fad4-2000x1333-66.jpg",
+            "bgColor": "#d8d4d1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/arabian-1400x1470-75.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Jasminum sambac",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Jasminum sambac (<i>jasmin d'Arabie</i>) est une espèce de jasmin originaire d'une petite région de l'Himalaya oriental au Bhoutan et de l'Inde et du Pakistan voisins. Il est cultivé dans de nombreux endroits, en particulier dans une grande partie de l'Asie du Sud et du Sud-Est. Il est naturalisé dans de nombreux endroits dispersés: Maurice, Madagascar, les Maldives, l'Amérique centrale, le sud de la Floride, les Bahamas, Cuba, la Jamaïque et Puerto Rico.&nbsp;<span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum sambac est un petit arbuste &nbsp;de 0,5 à 3 m de hauteur. Il est largement cultivé pour ses fleurs attrayantes et doucement parfumées. Les fleurs peuvent être utilisées comme ingrédient parfumé dans les parfums et le thé de jasmin. Il est connu comme le jasmin arabe en anglais. Il est la fleur nationale des Philippines, où il est connu comme sampaguita.&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Malgré le nom commun anglais de \"Arabian jasmine\", Jasminum sambac n'est pas originaire de l'Arabie. Les habitudes de Jasminum sambac soutiennent un habitat indigène des climats tropicaux humides et pas les climats arides du Moyen-Orient. Les premiers enregistrements chinois de la plante indiquent l'origine de Jasminum sambac en Asie du Sud-Est et en Asie du Sud-Est. Jasminum sambac (et neuf autres espèces du genre) ont été répandus en Arabie et en Perse par l'homme, où ils ont été cultivés dans les jardins. De là, ils ont été introduits en Europe où ils ont été cultivés comme des plantes ornementales et ont été connus sous le nom commun \"sambac\" au 18ème siècle.</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "star.html": {
+      "settings": {
+        "order": 15
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-28",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#1d8c1d"
+            }
+          },
+          "_anchor": "msg-box4-2e",
+          "_params": {
+            "imageSize": "20",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/multi-1400x1032-54.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Jasminum multiflorum&nbsp;",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Jasminum multiflorum est une espèce de jasmin, dans la famille des Oleaceae. Il est connu comme le jasmin indien, le jasmin downy, et le jasmin étoilé. Il fleurit en hiver indien. Il est également appelé Magha Mallika (sanskrit) depuis qu'il fleurit dans le mois d'hiver de Magha dans le calendrier  Hindou. Il fleurit tellement que parfois les fleurs couvrent la plupart des feuilles laissant tout blanc.Dans la mythologie indienne, Kund est connu pour sa blancheur. Ainsi, au lieu de la phrase occidentale commune «blanche comme la neige», ce qui apparaît souvent dans les histoires mythologiques hindoues est «blanc comme kunda». De plus, les belles dents blanches sont souvent comparées aux bourgeons de Kunda. Il est considéré comme particulièrement sacré pour Vishnu. Dans Manipur, les fleurs Kundo sont utilisés dans le culte, et sont une partie essentielle d'une cérémonie de mariage. La mariée  guirlande le marié avec deux guirlandes de fleurs Kundo. Le marié prend alors une des deux et redonne l'autre à sa mariée.Jasminum multiflorum est originaire de l'Inde, du Népal, du Bhoutan, du Laos, de la Birmanie, de la Thaïlande et du Vietnam. Il est largement cultivé dans les régions tropicales et subtropicales pour ses fleurs attrayantes et intensément parfumées. L'espèce aurait été naturalisée en Floride, au Chiapas, en Amérique centrale, au Queensland et dans une grande partie des Antilles.&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        }
+      ]
+    },
+    "winter.html": {
+      "settings": {
+        "order": 16
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2b",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d27629"
+            },
+            ".lead P": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".mbr-section-title I": {
+              "font-size": "46px"
+            }
+          },
+          "_anchor": "msg-box4-2c",
+          "_params": {
+            "imageSize": "20",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/ElHoudaNour/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3_4.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/jn-1400x1050-63.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<i>Jasminum nudiflorum</i>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><span style=\"font-size: 1.25rem; line-height: 1.5;\">Le jasmin d'hiver (Jasminum nudiflorum) est un arbuste à feuilles caduques minces originaire de Chine. Il est largement cultivé comme un ornement et est censément naturalisé en France et dans des endroits dispersés aux États-Unis (Texas, Oklahoma, Géorgie, Tennessee, Maryland et New Jersey) Il pousse à 3 m de haut Avec des pousses vertes foncées . Chaque feuille est divisée en trois folioles ovales qui sont d'environ 3 cm de long. </span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Comme son nom l'indique, dans l'hémisphère nord,jasmin d'hivers fleurit de novembre à mars. Les fleurs solitaires, souvent apparaissant sur les tiges nues (d'où le latin nudiflorum, littéralement «fleur nue») ont six pétales et sont jaune vif( ou blanc,)environ 1 cm de diamètre.</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum nudiflorum est apprécié par les jardiniers comme l'une des rares plantes qui fleurissent pendant les mois d'hiver. Il est souvent entraîné contre un mur pour fournir la chaleur supplémentaire et l'abri,mais se prête également à la couverture de terrain. Il devrait être taillée au printemps immédiatement après la floraison.L'élagage régulier aidera à prévenir les patchs nus. Il peut également être cultivé comme un bonsaï et est très tolérant aux méthodes de câblage.</span><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasminum-nudiflorum-2000x2000-36-800x800-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasminum-nudiflorum-2000x2000-36.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasminum-nudiflorum-v1-750x750-2000x2000-80-800x800-74.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasminum-nudiflorum-v1-750x750-2000x2000-80.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/perr-2000x2000-37-800x800-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/perr-2000x2000-37.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/1000-2000x2000-62-800x800-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1000-2000x2000-62.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-2d",
+          "articleLayout": false
+        }
+      ]
+    },
+    "usejas.html": {
+      "settings": {
+        "order": 17
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2f",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#0659a1",
+              "font-size": "60px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header3-2k",
+          "title": "Usages et Culture:",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "color": "#0275d8"
+            }
+          },
+          "_anchor": "content4-2j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#c6e4ed",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "Huile de jasmin",
+          "caption1": "L'huile essentielle de' Jasminum officinale' est utilisée en aromathérapie. Jasmine absolue est connu comme le «roi des huiles», et son parfum lourd et doux est aimé par la plupart des gens. Les fleurs libèrent leur parfum au crépuscule, de sorte que les fleurs sont cueillies la nuit et une petite quantité d'huile est obtenue par extraction au solvant. Le résultat est un pétrole très cher, mais il peut être utilisé à faible concentration, il n'est donc pas non plus rentable de l'utiliser dans les produits. L'arôme de jasmin est décrit comme apaisant &nbsp;et est indiqué pour la dépression et le stress ainsi que certaines conditions respiratoires.Il est indiqué pour les affections de la peau sensible aussi.",
+          "title2": "Thé de jasmin",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Le thé de jasmin est souvent consommé en Chine, où il est appelé thé de fleur de jasmin. 'Jasminum sambac 'fleurs sont également utilisés pour faire du thé de jasmin, qui a souvent une base de thé vert ou thé blanc. Les fleurs sont placées dans des machines qui contrôlent la température et l'humidité. Il faut environ quatre heures pour que le thé absorbe le parfum et la saveur des fleurs de jasmin. Pour les plus hautes notes de thé de jasmin, ce processus peut être répété jusqu'à sept fois. Comme le thé absorbe l'humidité des fleurs fraîches de jasmin, il doit être refroidit. Les fleurs utilisées peuvent être retirées du produit final, car les fleurs ne contiennent plus d'arôme. Les ventilateurs géants sont utilisés pour souffler loin et enlever les pétales des feuilles de thé plus denses.</span><br>",
+          "title3": "Jasmin en tunisie",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">Importé par les Andalous au XVIe siècle, le jasmin est devenu la fleur nationale de la Tunisie . Le rassemblement ait lieu à l'aube, puis, à la tombée de la nuit. les jeunes garçons recueillent de petits bouquets et les vendent ensuite aux passants de la rue ou aux automobilistes arrêtés aux intersections .</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">De plus, le jasmin est le sujet d'une langue de signes spécifique. Un homme qui porte du jasmin sur son oreille gauche indique qu'il est célibataire et en plus, en offrant le jasmin blanc est considéré comme une preuve d'amour tandis que, au contraire, offrir le jasmin d'hiver sans odeur est un signe d'insolence.</span><br>",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2l",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">haut</a>"
+        }
+      ]
+    },
+    "ContactUs.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2q",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-2t",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Contactez-nous",
+          "form": {
+            "action": "Nouer.Elhoude22@gmail.com",
+            "alerts": {
+              "success": "Thanks for your support!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "nom*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "telephone*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">envoyer</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2r",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bloomn-265x149-29.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>\nCity: tunis,tunisia&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>",
+          "text3": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-2s",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Bloom.inc. Terms of Use  | Privacy Policy"
         }
       ]
     }
