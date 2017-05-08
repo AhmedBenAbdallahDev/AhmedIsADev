@@ -7,7 +7,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -25,7 +25,7 @@
 }
 #header1-1 H1 {
   font-size: 100px;
-  color: #061b2c;
+  color: #04121d;
 }
 #header1-1 P {
   color: #3c0402;
@@ -47,7 +47,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -77,7 +77,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -111,7 +111,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -144,7 +144,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -183,7 +183,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -224,7 +224,7 @@
 }
 #dropdown-menu-10 .nav .link,
 #dropdown-menu-10 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -249,7 +249,7 @@
 }
 #dropdown-menu-1o .nav .link,
 #dropdown-menu-1o .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -280,7 +280,7 @@
 }
 #dropdown-menu-1q .nav .link,
 #dropdown-menu-1q .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -313,7 +313,7 @@
 }
 #dropdown-menu-1s .nav .link,
 #dropdown-menu-1s .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -347,7 +347,7 @@
 }
 #dropdown-menu-1w .nav .link,
 #dropdown-menu-1w .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -383,7 +383,7 @@
 }
 #dropdown-menu-1z .nav .link,
 #dropdown-menu-1z .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -413,7 +413,7 @@
 }
 #dropdown-menu-21 .nav .link,
 #dropdown-menu-21 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -438,7 +438,7 @@
 }
 #dropdown-menu-25 .nav .link,
 #dropdown-menu-25 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -470,7 +470,7 @@
 }
 #dropdown-menu-28 .nav .link,
 #dropdown-menu-28 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -495,7 +495,7 @@
 }
 #dropdown-menu-2b .nav .link,
 #dropdown-menu-2b .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -527,7 +527,7 @@
 }
 #dropdown-menu-2f .nav .link,
 #dropdown-menu-2f .dropdown-item {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -557,7 +557,7 @@
 }
 #dropdown-menu-2q .nav .link,
 #dropdown-menu-2q .dropdown-item {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #000000;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -574,5 +574,38 @@
   color: #000000;
 }
 #footer1-2s P {
+  text-align: center;
+}
+
+
+#dropdown-menu-2z .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2z .nav .link,
+#dropdown-menu-2z .dropdown-item {
+  font-size: 1.4em;
+  color: #000000;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#dropdown-menu-2z .navbar,
+#dropdown-menu-2z .dropdown-menu {
+  background: #ffffff;
+}
+#dropdown-menu-2z .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2z .dropdown-menu a:hover,
+#dropdown-menu-2z .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu-2z .navbar-toggler {
+  color: #000000;
+}
+#header4-35 H1 {
+  text-align: left;
+  font-family: 'Playfair Display', sans-serif;
+}
+#header4-35 P {
+  text-align: left;
+}
+#footer1-31 P {
   text-align: center;
 }

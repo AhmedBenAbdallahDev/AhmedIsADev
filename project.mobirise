@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 107,
+    "uniqCompNum": 118,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/bllom-black-128x53-44.png",
     "noImageResize": "",
@@ -34,7 +34,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1.2em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -56,7 +56,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.2",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -82,7 +82,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "alias": "purity/components",
@@ -93,7 +93,7 @@
           "_styles": {
             "H1": {
               "font-size": "100px",
-              "color": "#061b2c"
+              "color": "#04121d"
             },
             "P": {
               "color": "#3c0402"
@@ -137,6 +137,30 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "video1",
+          "_anchor": "video1-39",
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/photo-13.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/ryUxrFUk6MY",
+              "autoplay": "on",
+              "loop": "on"
+            }
+          },
+          "text": "Cut down the development time with drag-and-drop website builder."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "contacts1",
           "_anchor": "contacts1-2m",
           "_params": {
@@ -167,8 +191,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>",
+          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
           "text3": ""
         },
         {
@@ -189,7 +213,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#26272c",
+            "bgColor": "#37383d",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -211,7 +235,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -233,7 +257,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -259,7 +283,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -349,7 +373,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -371,7 +395,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -397,7 +421,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -486,9 +510,10 @@
           "_anchor": "map2-2w",
           "_params": {
             "googleMap": {
-              "address": "europe",
-              "placeId": "",
-              "state": "loading"
+              "address": "europe ",
+              "placeId": "ChIJhdqtz4aI7UYRefD8s-aZ73I",
+              "state": "ok",
+              "stateDetails": ""
             }
           }
         }
@@ -506,7 +531,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -528,7 +553,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -554,7 +579,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -614,7 +639,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -636,7 +661,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -662,7 +687,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -841,9 +866,10 @@
           "_anchor": "map2-2x",
           "_params": {
             "googleMap": {
-              "address": "china",
-              "placeId": "",
-              "state": "loading"
+              "address": "china.",
+              "placeId": "ChIJwULG5WSOUDERbzafNHyqHZU",
+              "state": "ok",
+              "stateDetails": ""
             }
           }
         }
@@ -861,7 +887,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -883,7 +909,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -909,7 +935,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -1060,7 +1086,7 @@
           },
           "title": "1Mobirise",
           "text": "Les participants ont été invités à répondre de manière créative à cet appel avec des travaux présentés sur le site Web Remember Nature. Les œuvres des participants ont également été exposées au Centre Saint Martins du 4 au 5 novembre.<br>Remember Nature est une campagne impliquant une équipe de partenaires, dont Central Saint Martins à Londres et l'Université des arts créatifs de Farnham.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Retour au sommet</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">maison</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Retour au sommet</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">maison</a>"
         }
       ]
     },
@@ -1076,7 +1102,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1098,7 +1124,7 @@
           "_anchor": "dropdown-menu-10",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1124,7 +1150,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -1159,7 +1185,7 @@
             "showArrow": false
           },
           "title": "Réalisateur",
-          "text": "Nour El Houda Ben Abdallah ,avec l'aide de son jeune frère a fondé ce site .en ajoutant quelques conseils et reccomandations de son professeur, elle a réussi à vous présenter ce<br>Site sur les fleurs ... en fait, cette idée n'a pas &nbsp;sorti de nulle part .. vérifier notre inspiration et aventure exquisite pour en savoir plus ..<br>",
+          "text": "Nour El Houda Ben Abdallah , avec beaucoup d'effort et patience &nbsp;a fondé ce site .en ajoutant quelques conseils et reccomandations de son professeur, elle a réussi à vous présenter ce<br>Site sur les fleurs ... en fait, cette idée n'a pas &nbsp;sorti de nulle part .. vérifier notre inspiration et aventure exquisite pour en savoir plus ..<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Journey.html\" data-toolbar=\"-mbrBtnMove\">aventure</a> "
         }
       ]
@@ -1176,7 +1202,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1198,7 +1224,7 @@
           "_anchor": "dropdown-menu-1o",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1224,7 +1250,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1308,7 +1334,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1330,7 +1356,7 @@
           "_anchor": "dropdown-menu-1q",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1356,7 +1382,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1442,7 +1468,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1464,7 +1490,7 @@
           "_anchor": "dropdown-menu-1s",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1490,7 +1516,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "alias": "purity/components",
@@ -1579,7 +1605,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1601,7 +1627,7 @@
           "_anchor": "dropdown-menu-1w",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1627,7 +1653,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1731,7 +1757,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1753,7 +1779,7 @@
           "_anchor": "dropdown-menu-1z",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1779,7 +1805,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "header1",
@@ -1836,7 +1862,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1858,7 +1884,7 @@
           "_anchor": "dropdown-menu-21",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -1884,7 +1910,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1962,7 +1988,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -1984,7 +2010,7 @@
           "_anchor": "dropdown-menu-25",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -2010,7 +2036,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -2095,7 +2121,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -2117,7 +2143,7 @@
           "_anchor": "dropdown-menu-28",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -2143,7 +2169,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -2221,7 +2247,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -2243,7 +2269,7 @@
           "_anchor": "dropdown-menu-2b",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -2269,7 +2295,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -2391,7 +2417,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -2413,7 +2439,7 @@
           "_anchor": "dropdown-menu-2f",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -2439,7 +2465,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "alias": "purity/components",
@@ -2522,7 +2548,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1.2em",
+              "font-size": "1.4em",
               "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-family": "'Alegreya Sans', sans-serif"
@@ -2544,7 +2570,7 @@
           "_anchor": "dropdown-menu-2q",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.2",
+            "fontSize": "1.4",
             "fontName": {
               "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "name": "Alegreya Sans",
@@ -2570,7 +2596,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
           "alias": "purity/components",
@@ -2657,8 +2683,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>",
+          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
           "text3": ""
         },
         {
@@ -2680,6 +2706,345 @@
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Bloom.inc. Terms of Use  | Privacy Policy"
+        }
+      ]
+    },
+    "Outils.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.4em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-family": "'Alegreya Sans', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2z",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.4",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "name": "Alegreya Sans",
+              "css": "'Alegreya Sans', sans-serif"
+            },
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bllom-black-305x128-7.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Maison</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">plus</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Journey.html\">Aventure<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Credits.html\">Réalisateur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ContactUs.html\">contactez-nous</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Outils.html\">Outils</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "left",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header4-35",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2.jpg",
+            "bgColor": "#fbfbfb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Outils<br>",
+          "text": "Logiciels, nous ne sommes pas allés vraiment profond parce que nous n'avions pas les ressources ni le temps d'investir dans un meilleur logiciel, c'est pourquoi nous avons seulement besoin d'un logiciel d'édition d'image et de logiciels de codage qui a vraiment contribué à rendre notre travail beaucoup plus facile plus de&nbsp;Bien sûr, l'éditeur HTML Mobirise avec Bootstrap 4 et google web polices enfin Mais pas moins avec l'aide d'un appareil photo fiable et des références de script.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-36",
+          "_params": {
+            "imageSize": "46",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fbfbfb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/adobe-photoshop-cc-2015-free-download-1400x869-40-1400x869-46.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "PhotoShop CC",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Dans notre projet, nous avons utilisé la version 2017 de Adobe Photoshop cc pour garantir la qualité maximale de notre site et des icônes et pour que nousavons équipé l'équipe avecUn processeur 2,2 GHz overclocking à 2,66 GHz et il est &nbsp;Bon, le logiciel fonctionnait assez bien et il était b<span style=\"font-size: 1.25rem; line-height: 1.5;\">on et nous avons vraiment modifié toutes les captures d'écran et les images</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-37",
+          "_params": {
+            "imageSize": "32",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/0720-1400x787-84-1400x787-57.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "VISUAL STUDIO&nbsp;<div><br></div><div><br></div>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>En termes de code, nous avons pris le choix d'utiliser Microsoft Visual Studio, la version 2015 pour être exact et il a<span style=\"font-size: 1.25rem; line-height: 1.5;\">&nbsp;été notre choix à cause de l'interface plutôt organisée, construite en Api Pour l'examen des méthodes t il est ultra rapide avec des&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">&nbsp;paramètres de refactorisation &nbsp;qui vous aident automatiquement avec des erreurs, des trucs ...</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-38",
+          "_params": {
+            "imageSize": "33",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/bootstrap-4-1400x787-48-1400x787-23.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "BootStrap 4",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Bootstrap 4 est l'un des éditeurs de cadres HTML, CSS et JS les plus populaires au monde pour la construction de projets compatibles mobiles compatibles, nous l'avons utilisé à cause de l'interface facile et de la base de données énorme scripting et des guides qui aident vraiment le travail et nous permettent À faire tels sites professionnels comme celui-ci en face de nous.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Sommet</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-30",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bloomn-265x149-29.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
+          "text3": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-31",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383d",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
