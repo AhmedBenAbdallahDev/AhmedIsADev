@@ -151,7 +151,7 @@
               "active": true,
               "src": "https://youtu.be/ryUxrFUk6MY",
               "autoplay": "on",
-              "loop": "on"
+              "loop": false
             }
           },
           "text": "Cut down the development time with drag-and-drop website builder."
@@ -2813,7 +2813,7 @@
             "showArrow": true
           },
           "title": "Outils<br>",
-          "text": "Logiciels, nous ne sommes pas allés vraiment profond parce que nous n'avions pas les ressources ni le temps d'investir dans un meilleur logiciel, c'est pourquoi nous avons seulement besoin d'un logiciel d'édition d'image et de logiciels de codage qui a vraiment contribué à rendre notre travail beaucoup plus facile plus de&nbsp;Bien sûr, l'éditeur HTML Mobirise avec Bootstrap 4 et google web polices enfin Mais pas moins avec l'aide d'un appareil photo fiable et des références de script.<br>",
+          "text": "Logiciels, nous ne sommes pas allés vraiment profond parce que nous n'avions pas les ressources ni le temps d'investir dans un meilleur logiciel, c'est pourquoi nous avons seulement besoin d'un logiciel d'édition d'image et de logiciels de dévelopement web qui a vraiment contribué à rendre notre travail beaucoup plus facile . Bien sûr, l'éditeur HTML Mobirise (payant) avec Bootstrap 4 et google web polices.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
         },
         {
