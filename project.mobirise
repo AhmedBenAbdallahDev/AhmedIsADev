@@ -192,7 +192,7 @@
             }
           },
           "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99,666,222<br>",
           "text3": ""
         },
         {
@@ -2880,63 +2880,6 @@
             "Theme"
           ],
           "_name": "msg-box4",
-          "_anchor": "msg-box4-37",
-          "_params": {
-            "imageSize": "32",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/0720-1400x787-84-1400x787-57.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "VISUAL STUDIO&nbsp;<div><br></div><div><br></div>",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>En termes de code, nous avons pris le choix d'utiliser Microsoft Visual Studio, la version 2015 pour être exact et il a<span style=\"font-size: 1.25rem; line-height: 1.5;\">&nbsp;été notre choix à cause de l'interface plutôt organisée, construite en Api Pour l'examen des méthodes t il est ultra rapide avec des&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">&nbsp;paramètres de refactorisation &nbsp;qui vous aident automatiquement avec des erreurs, des trucs ...</span></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
           "_anchor": "msg-box4-38",
           "_params": {
             "imageSize": "33",
@@ -3023,7 +2966,7 @@
             }
           },
           "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99,666,222<br>",
           "text3": ""
         },
         {
