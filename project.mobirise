@@ -191,8 +191,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99,666,222<br>",
+          "text1": "<strong>Address</strong><strong><br></strong>Lycee Med.Arbi Chammeri<br>Ouardia<br>City: Tunis,Tunisia&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: Nouer.Elhoude22@Gmail.com<br>\nPhone: 99-666-222<br>",
           "text3": ""
         },
         {
@@ -314,7 +314,7 @@
                 "showTitle": true,
                 "title": "Les Roses",
                 "showText": true,
-                "text": "Une des fleurs les plus célèbres au monde, les Roses serons<br>Un de nos points d'intérêt dans cette expérience interactive<br>Et nous allons traverser ses origines<br>et ses &nbsp; variations multiple.<br>",
+                "text": "Une des fleurs les plus célèbres au monde, les Roses serons<br>Un de nos points d'intérêt dans cette expérience interactive<br>Et nous allons traverser ses origines<br>et ses &nbsp; variations multiples.<br>",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"Roses.html\" data-toolbar=\"-mbrBtnMove\">Plus!</a> "
               },
@@ -325,7 +325,7 @@
                 "showTitle": true,
                 "title": "Marguerite",
                 "showText": true,
-                "text": "Les marguerites sont simples mais sophistiquées et sont unes des plus<br>belles fleurs dans le monde floral. Les marguerites transmettent&nbsp;la joie et l'exubérance en pique.Pas étonnant, les&nbsp;marguerites sont populaires pour&nbsp;<br>leur dons dans les jardins&nbsp;",
+                "text": "Les marguerites sont simples mais sophistiquées et sont unes des plus<br>belles fleurs dans le monde floral. Les marguerites transmettent&nbsp;la joie et l'exubérance en pique.Pas étonnant, les&nbsp;marguerites sont populaires pour&nbsp;<br>leur dons dans les jardins .",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Daisy.html\" data-toolbar=\"-mbrBtnMove\">Montrer moi!</a>"
               },
@@ -336,7 +336,7 @@
                 "showTitle": true,
                 "title": "Kamini",
                 "showText": true,
-                "text": "Cette petite fleur assez commune pousse sur<br>Plante native au sud de la Chine et est formellement appelé Murraya Paniculata et est communément connu sous le nom de jessamine orange.<br>",
+                "text": "Cette petite fleur assez commune est une<br>Plante native au sud de la Chine et est formellement appelé 'Murraya Paniculata' et est communément connu sous le nom de jessamine d'orange.<br>",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Kamini.html\" data-toolbar=\"-mbrBtnMove\">Explorer!</a> "
               },
@@ -347,7 +347,7 @@
                 "showTitle": true,
                 "title": "Jasmin",
                 "showText": true,
-                "text": "&nbsp;'Jasminum ' &nbsp;ou tout simplent jasmin est une fleur<br>extra ordinaire globalement connu .cette eblouissante fleur présente plusieurs variations &nbsp;dans la nature .",
+                "text": "&nbsp;'Jasminum ' &nbsp;ou tout simplent jasmin est une fleur<br>extra ordinaire globalement connu .cette fleur éblouissante présente plusieurs variations &nbsp;dans la nature .",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Découvrer!</a> "
               }
@@ -433,7 +433,7 @@
           "_styles": {
             "P": {
               "color": "#000000",
-              "text-align": "right"
+              "text-align": "center"
             },
             "H1": {
               "color": "#d9534f"
@@ -460,7 +460,7 @@
             "showArrow": false
           },
           "title": "Marguerite",
-          "text": "Bellis est latine pour \"jolie\" et perennis est latine pour \"éternel\".<br><br>Le nom «marguerite» est considéré comme une corruption de «Days eye» parce que la tête entière ferme la nuit et s'ouvre le matin. Chaucer l'appelait «l'œil du jour». Dans l'époque médiévale, Bellis perennis ou la marguerite anglaise était communément appelée «Rose de Marie».<br>La marguerite anglaise est également considérée comme une fleur d'enfants et d'innocence.<br>Ajoutant à cela, il s'agit d'une espèce européenne commune de marguerite, de la famille des Asteraceae, souvent considérée comme l'espèce archétype de ce nom.<br>Beaucoup de plantes apparentées partagent également le nom «marguerite», afin de distinguer cette espèce d'autres marguerites, il est parfois qualifié de marguerite commune, marguerite de la pelouse ou marguerite anglaise. Historiquement, il a également été communément connu sous le nom bruisewort et occasionnellement woundwort.<br>   Cette fleur est originaire de l'Europe occidentale, centrale et nordique, mais largement naturalisée dans la plupart des régions tempérées, y compris les Amériques et l'Australasie.<br>",
+          "text": "Bellis est latine pour \"jolie\" et perennis est latine pour \"éternel\".<br><br>Le nom «marguerite» est considéré comme une corruption de «Days eye» parce que la tête entière ferme la nuit et s'ouvre le matin. Chaucer l'appelait «l'œil du jour». Dans l'époque médiévale, Bellis perennis ou la marguerite anglaise était communément appelée «Rose de Marie».<br>La marguerite anglaise est également considérée comme une fleur d'enfants et d'innocence.<br>Ajoutant à cela,ils'agit d'une espèce européenne commune de marguerite,de la famille des \"Asteraceae\" .<br>Beaucoup de plantes apparentées partagent également le nom «marguerite», afin de distinguer cette espèce d'autres marguerites, il est parfois qualifié de marguerite commune, marguerite de la pelouse ou marguerite anglaise. Historiquement, il a également été communément connu sous le nom bruisewort et occasionnellement woundwort.<br>   Cette fleur est originaire de l'Europe occidentale, centrale et nordique, mais largement naturalisée dans la plupart des régions tempérées, y compris les Amériques et l'Australasie.<br>",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Maison</a>"
         },
         {
@@ -510,8 +510,8 @@
           "_anchor": "map2-2w",
           "_params": {
             "googleMap": {
-              "address": "europe ",
-              "placeId": "ChIJhdqtz4aI7UYRefD8s-aZ73I",
+              "address": "england.",
+              "placeId": "ChIJ39UebIqp0EcRqI4tMyWV4fQ",
               "state": "ok",
               "stateDetails": ""
             }
@@ -729,7 +729,7 @@
             "showArrow": false
           },
           "title": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kamini",
-          "text": "'Murraya paniculata' est une plante tropicale, à feuilles persistantes originaire du sud de la Chine, à Taiwan, le sous-continent indien et l'australie portant des petites fleurs blanches, parfumées, qui sont cultivé comme un arbre ornemental ou de haie. Orange jessamine, boîte chinoise, Le satinwood ou le jasmin de Lakeview sont quelques-uns de ses noms communs. Murraya est étroitement lié aux agrumes, et porte le petit orange au fruit rouge ressemblant les kumquats, bien que certains cultivars ne mettent pas le fruit. Cette fleur est assez commune et vue dans les jardins.",
+          "text": "'Murraya paniculata' est une plante tropicale, à feuilles persistantes originaire du sud de la Chine, à Taiwan, le sous-continent indien et l'australie portant des petites fleurs blanches, parfumées, qui sont cultivé comme un arbre ornemental ou de haie. Orange jessamine, boîte chinoise, Le satinwood ou le jasmin de Lakeview sont quelques-uns de ses noms communs. Murraya est étroitement lié aux agrumes. Cette plante porte des &nbsp; fruits rouge ressemblant les kumquats, bien que certains cultivars ne s'intéressent pas aux fruits. De plus elle est assez commune et vue dans les jardins.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
         },
         {
@@ -791,7 +791,7 @@
           },
           "title": "Simple &amp; jolie",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><span style=\"font-size: 1.25rem; line-height: 1.5;\">Orange Jessamine est un petit, tropical, à feuilles persistantes</span><br></p><p>Arbre ou arbuste de plus de 7 m de haut. La plante fleurit toute l'année. Ses feuilles sont brillantes, Les fleurs sont terminales, peu fleuries, denses et parfumées. &nbsp;Ces Pétales varient de 12 à 18 mm de long, recourbés et blancs (ou crème décolorante). Le fruit de Murraya paniculata est charnu, oblong-ovoïde, de couleur rouge à orange, et pousse jusqu'à 1 pouce de longueur.</p>&nbsp;La plante fleurit tout au long de l'année et produit de petites grappes de fleurs parfumées qui attirent les abeilles, tandis que les fruits attirent de petits oiseaux frugivores<p><br></p><p><br></p>",
+          "text": "<p><span style=\"font-size: 1.25rem; line-height: 1.5;\">Orange Jessamine est un petit arbuste</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">, tropical, à feuilles persistantes&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">et de plus de 7 m de haut. La plante fleurit toute l'année.</span></p><p><span style=\"font-size: 1.25rem; line-height: 1.5;\"> Ses feuilles sont brillantes, Les fleurs sont terminales, peu fleuries, denses et parfumées. &nbsp;Ces Pétales varient de 12 à 18 mm de long, recourbés et blancs (ou crème ). Le fruit de Murraya paniculata est charnu, oblong-ovoïde, de couleur rouge à orange, et pousse jusqu'à 1 pouce de longueur.</span></p>&nbsp;Les fleurs ,ayant une bonne odeur et un bon gout attirent les abeilles, tandis que les fruits attirent de petits oiseaux frugivores.<p><br></p><p><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Maison</a>"
         },
         {
@@ -866,8 +866,8 @@
           "_anchor": "map2-2x",
           "_params": {
             "googleMap": {
-              "address": "china.",
-              "placeId": "ChIJwULG5WSOUDERbzafNHyqHZU",
+              "address": "china,Taiwan.",
+              "placeId": "ChIJL1cHXAbzbjQRaVScvwTwEec",
               "state": "ok",
               "stateDetails": ""
             }
@@ -1574,11 +1574,11 @@
             "showCaptions": true
           },
           "title1": "En medecine&nbsp;",
-          "caption1": "La 'rose hip'(hanche de rose), &nbsp;est utilisée comme une source mineure de vitamine C. Les fruits de nombreuses espèces ont des niveaux significatifs de vitamines et ont été utilisés comme un complément alimentaire. Beaucoup de roses ont été utilisées dans les médicaments à base de plantes et populaires. Rosa chinensis a longtemps été utilisé dans la médecine traditionnelle chinoise. Cette espèce et d'autres ont été utilisées pour des problèmes d'estomac, et sont à l'étude pour contrôler la croissance du cancer.",
+          "caption1": "Le 'rose hip'(hanche de rose), &nbsp;est utilisée comme une source mineure de vitamine C. Les fruits de nombreuses espèces ont des niveaux significatifs de vitamines et ont été utilisés comme un complément alimentaire. Beaucoup de roses ont été utilisées dans les médicaments à base de plantes et populaires. Rosa chinensis a longtemps été utilisé dans la médecine traditionnelle chinoise. Cette espèce et d'autres ont été utilisées pour des problèmes d'estomac, et sont à l'étude pour contrôler la croissance du cancer.",
           "title2": "En parfum",
           "caption2": "Les parfums de rose sont fabriqués à partir d'huile de rose (également appelée attar de roses), qui est un mélange d'huiles essentielles volatiles obtenues par distillation à la vapeur des pétales de roses broyés. Un produit associé est l'eau de rose qui est utilisé pour la cuisine, les cosmétiques, la médecine et les pratiques religieuses. La technique de production est originaire de Perse puis s'est répandue en Arabie et en Inde, et plus récemment en Europe de l'Est.",
           "title3": "En alimentation",
-          "caption3": "Les'rose hip'(Le fruit accessoire de la plante de rose ) sont parfois transformées en confiture, en gelée, en marmelade et en soupe ou sont préparées pour le thé, principalement pour leur teneur élevée en vitamine C. Ils sont également pressés et filtrés pour faire le sirop de hanche rose. Les hanches sont également utilisées pour produire de l'huile de graine de rose, qui est utilisé dans les produits pour la peau et certains produits cosmetique.<br><span style=\"font-size: 1rem; line-height: 1.5;\">L'eau de rose a une saveur très distincte et est fortement utilisée dans les plats du Moyen-Orient et de l'Asie du Sud, surtout dans les sucreries</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">les Pétales de rose &nbsp;sont parfois utilisés pour aromatiser le thé ordinaire, ou combiné avec d'autres herbes pour faire des tisanes.</span><br>",
+          "caption3": "Les'rose hip'(Le fruit accessoire de la plante de rose ) sont parfois transformées en confiture, en gelée, en marmelade et en soupe ou sont préparées pour le thé, principalement pour leur teneur élevée en vitamine C. Ils sont également pressés et filtrés pour faire le sirop de hanche rose. Les hanches sont également utilisées pour produire de l'huile de graine de rose, qui est utilisé dans les produits pour la peau et certains produits cosmetique.<br><span style=\"font-size: 1rem; line-height: 1.5;\">L'eau de rose a une saveur très distincte et est fortement utilisée dans les plats du Moyen-Orient et de l'Asie du Sud, surtout dans les sucreries.</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">les Pétales de rose &nbsp;sont parfois utilisés pour aromatiser le thé ordinaire, ou combiné avec d'autres herbes pour faire des tisanes.</span><br>",
           "title4": "Unlimited Websites",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
         },
@@ -1971,7 +1971,7 @@
           },
           "title": "Jasminum officinale",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>'Jasminum officinale', connu comme le jasmin commun ou simplement le jasmin, est une espèce de plante à fleurs dans la famille oléagineuse Oleaceae. Il est originaire du Caucase, du nord de l'Iran, de l'Afghanistan, du Pakistan, de l'Himalaya, du Tadjikistan, de l'Inde, du Népal et de l'ouest de la Chine (Guizhou, Sichuan, Xizang (Tibet), Yunnan). L'espèce est également largement cultivée en de nombreux endroits et a été naturalisée en France, en Italie, au Portugal, en Roumanie, en ex-Yougoslavie, en Algérie et en Floride .<span style=\"font-size: 1.25rem; line-height: 1.5;\">Il est également connu comme le jasmin d'été, le jasmin du poète, le jasmin blanc, le jasmin vrai ou la jessamine, et est particulièrement apprécié par les jardiniers dans tout le monde tempéré pour l'odeur intense de ses fleurs en été . C'est aussi la fleur nationale du Pakistan.</span></p>",
+          "text": "<p>'Jasminum officinale', connu comme le jasmin commun ou simplement le jasmin, est une espèce de plante à fleurs dans la famille oléagineuse\" Oleaceae\". Il est originaire du Caucase, du nord de l'Iran, de l'Afghanistan, du Pakistan, de l'Himalaya, du Tadjikistan, de l'Inde, du Népal et de l'ouest de la Chine (Guizhou, Sichuan, Xizang (Tibet), Yunnan). L'espèce est également largement cultivée en de nombreux endroits et a été naturalisée en France, en Italie, au Portugal, en Roumanie, en ex-Yougoslavie, en Algérie et en Floride .<span style=\"font-size: 1.25rem; line-height: 1.5;\">Il est également connu comme le jasmin d'été, le jasmin du poète, le jasmin blanc, le jasmin vrai ou la jessamine, et est particulièrement apprécié par les jardiniers dans tout le monde &nbsp;pour l'odeur intense de ses fleurs en été . C'est aussi la fleur nationale du Pakistan.</span></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
         }
       ]
@@ -2104,7 +2104,7 @@
           },
           "title": "Jasminum sambac",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Jasminum sambac (<i>jasmin d'Arabie</i>) est une espèce de jasmin originaire d'une petite région de l'Himalaya oriental au Bhoutan et de l'Inde et du Pakistan voisins. Il est cultivé dans de nombreux endroits, en particulier dans une grande partie de l'Asie du Sud et du Sud-Est. Il est naturalisé dans de nombreux endroits dispersés: Maurice, Madagascar, les Maldives, l'Amérique centrale, le sud de la Floride, les Bahamas, Cuba, la Jamaïque et Puerto Rico.&nbsp;<span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum sambac est un petit arbuste &nbsp;de 0,5 à 3 m de hauteur. Il est largement cultivé pour ses fleurs attrayantes et doucement parfumées. Les fleurs peuvent être utilisées comme ingrédient parfumé dans les parfums et le thé de jasmin. Il est connu comme le jasmin arabe en anglais. Il est la fleur nationale des Philippines, où il est connu comme sampaguita.&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Malgré le nom commun anglais de \"Arabian jasmine\", Jasminum sambac n'est pas originaire de l'Arabie. Les habitudes de Jasminum sambac soutiennent un habitat indigène des climats tropicaux humides et pas les climats arides du Moyen-Orient. Les premiers enregistrements chinois de la plante indiquent l'origine de Jasminum sambac en Asie du Sud-Est et en Asie du Sud-Est. Jasminum sambac (et neuf autres espèces du genre) ont été répandus en Arabie et en Perse par l'homme, où ils ont été cultivés dans les jardins. De là, ils ont été introduits en Europe où ils ont été cultivés comme des plantes ornementales et ont été connus sous le nom commun \"sambac\" au 18ème siècle.</span></p>",
+          "text": "<p>'Jasminum sambac' (<i>jasmin d'Arabie</i>) est une espèce de jasmin originaire d'une petite région de l'Himalaya oriental au Bhoutan et de l'Inde et du Pakistan voisins. Il est cultivé dans de nombreux endroits, en particulier dans une grande partie de l'Asie du Sud et du Sud-Est. Il est naturalisé dans de nombreux endroits dispersés: Maurice, Madagascar, les Maldives, l'Amérique centrale, le sud de la Floride, les Bahamas, Cuba, la Jamaïque et Puerto Rico. '<span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum sambac 'est un petit arbuste &nbsp;de 0,5 à 3 m de hauteur. Il est largement cultivé pour ses fleurs attrayantes et doucement parfumées. Les fleurs peuvent être utilisées comme ingrédient parfumé dans les parfums et le thé de jasmin. Il est connu comme le jasmin arabe en anglais. Il est la fleur nationale des Philippines, où il est connu comme sampaguita.&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Malgré le nom commun anglais de \"Arabian jasmine\", Jasminum sambac n'est pas originaire de l'Arabie. Les habitudes de 'Jasminum sambac' soutiennent un habitat indigène des climats tropicaux humides et pas les climats arides du Moyen-Orient. Les premiers enregistrements chinois de la plante indiquent l'origine de 'Jasminum sambac' en Asie du Sud-Est .' Jasminum sambac' (et neuf autres espèces du genre) ont été répandus en Arabie et en Perse par l'homme, où ils ont été cultivés dans les jardins. De là, ils ont été introduits en Europe où ils ont été cultivés comme des plantes ornementales et ont été connus sous le nom commun \"sambac\" au 18ème siècle.</span></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
         }
       ]
@@ -2230,7 +2230,7 @@
           },
           "title": "Jasminum multiflorum&nbsp;",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Jasminum multiflorum est une espèce de jasmin, dans la famille des Oleaceae. Il est connu comme le jasmin indien, le jasmin downy, et le jasmin étoilé. Il fleurit en hiver indien. Il est également appelé Magha Mallika (sanskrit) depuis qu'il fleurit dans le mois d'hiver de Magha dans le calendrier  Hindou. Il fleurit tellement que parfois les fleurs couvrent la plupart des feuilles laissant tout blanc.Dans la mythologie indienne, Kund est connu pour sa blancheur. Ainsi, au lieu de la phrase occidentale commune «blanche comme la neige», ce qui apparaît souvent dans les histoires mythologiques hindoues est «blanc comme kunda». De plus, les belles dents blanches sont souvent comparées aux bourgeons de Kunda. Il est considéré comme particulièrement sacré pour Vishnu. Dans Manipur, les fleurs Kundo sont utilisés dans le culte, et sont une partie essentielle d'une cérémonie de mariage. La mariée  guirlande le marié avec deux guirlandes de fleurs Kundo. Le marié prend alors une des deux et redonne l'autre à sa mariée.Jasminum multiflorum est originaire de l'Inde, du Népal, du Bhoutan, du Laos, de la Birmanie, de la Thaïlande et du Vietnam. Il est largement cultivé dans les régions tropicales et subtropicales pour ses fleurs attrayantes et intensément parfumées. L'espèce aurait été naturalisée en Floride, au Chiapas, en Amérique centrale, au Queensland et dans une grande partie des Antilles.&nbsp;</p>",
+          "text": "<p>'Jasminum multiflorum' est une espèce de jasmin, dans la famille des \"Oleaceae\". Il est connu comme le jasmin indien, le jasmin downy, et le jasmin étoilé. Il fleurit en hiver indien(à partir de fin décembre ). Il est également appelé' Magha Mallika ' depuis qu'il fleurit dans le mois d'hiver de Magha dans le calendrier  Hindou. Il fleurit tellement que parfois les fleurs couvrent la plupart des feuilles laissant tout blanc.Dans la mythologie indienne, \"Kunda \"est connu pour sa blancheur. Ainsi, au lieu de la phrase occidentale commune «blanche comme la neige», ce qui apparaît souvent dans les histoires mythologiques hindoues est «blanc comme kunda». De plus, les belles dents blanches sont souvent comparées aux bourgeons de \"Kunda\". Il est considéré comme particulièrement sacré pour' Vishnu'. Dans Manipur, les fleurs Kundo sont utilisés dans le culte, et sont une partie essentielle d'une cérémonie de mariage. La mariée  guirlande le marie avec deux guirlandes de fleurs Kundo. Le marié prend alors une des deux et redonne l'autre à sa mariée.'Jasminum multiflorum 'est originaire de l'Inde, du Népal, du Bhoutan, du Laos, de la Birmanie, de la Thaïlande et du Vietnam. Il est largement cultivé dans les régions tropicales et subtropicales pour ses fleurs &nbsp;intensément parfumées. L'espèce a été naturalisée en Floride, au Chiapas, en Amérique centrale, au Queensland et dans une grande partie des Antilles.&nbsp;</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
         }
       ]
@@ -2363,7 +2363,7 @@
           },
           "title": "<i>Jasminum nudiflorum</i>",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><span style=\"font-size: 1.25rem; line-height: 1.5;\">Le jasmin d'hiver (Jasminum nudiflorum) est un arbuste à feuilles caduques minces originaire de Chine. Il est largement cultivé comme un ornement et est censément naturalisé en France et dans des endroits dispersés aux États-Unis (Texas, Oklahoma, Géorgie, Tennessee, Maryland et New Jersey) Il pousse à 3 m de haut Avec des pousses vertes foncées . Chaque feuille est divisée en trois folioles ovales qui sont d'environ 3 cm de long. </span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Comme son nom l'indique, dans l'hémisphère nord,jasmin d'hivers fleurit de novembre à mars. Les fleurs solitaires, souvent apparaissant sur les tiges nues (d'où le latin nudiflorum, littéralement «fleur nue») ont six pétales et sont jaune vif( ou blanc,)environ 1 cm de diamètre.</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum nudiflorum est apprécié par les jardiniers comme l'une des rares plantes qui fleurissent pendant les mois d'hiver. Il est souvent entraîné contre un mur pour fournir la chaleur supplémentaire et l'abri,mais se prête également à la couverture de terrain. Il devrait être taillée au printemps immédiatement après la floraison.L'élagage régulier aidera à prévenir les patchs nus. Il peut également être cultivé comme un bonsaï et est très tolérant aux méthodes de câblage.</span><br></p>",
+          "text": "<p><span style=\"font-size: 1.25rem; line-height: 1.5;\">Le jasmin d'hiver (Jasminum nudiflorum) est un arbuste à feuilles caduques minces originaire de Chine. Il est largement cultivé comme un ornement et est censément naturalisé en France et dans des endroits dispersés aux États-Unis (Texas, Oklahoma, Géorgie, Tennessee, Maryland et New Jersey) Il pousse à 3 m de haut Avec des pousses vertes foncées . Chaque feuille est divisée en trois folioles ovales qui sont d'environ 3 cm de long. </span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Comme son nom l'indique, dans l'hémisphère nord,le jasmin d'hiver fleurit de novembre à mars. Les fleurs solitaires, souvent apparaissant sur les tiges nues (d'où le latin nudiflorum, littéralement «fleur nue») ont six pétales et sont jaune vif( ou blanc parfois)environ 1 cm de diamètre.'</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">Jasminum nudiflorum 'est apprécié par les jardiniers comme l'une des rares plantes qui fleurissent pendant les mois d'hiver. Il est souvent entraîné contre un mur pour fournir la chaleur supplémentaire et l'abri,mais se prête également à la couverture de terrain. Il devrait être taillée au printemps immédiatement après la floraison.L'élagage régulier aidera à prévenir les patchs nus. Il peut également être cultivé comme un bonsaï et est très tolérant.</span><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"jasmin.html\" data-toolbar=\"-mbrBtnMove\">Retour</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"My flowers.html\" data-toolbar=\"-mbrBtnMove\">Mes fleurs</a>"
         },
         {
@@ -2622,13 +2622,13 @@
           "form": {
             "action": "Nouer.Elhoude22@gmail.com",
             "alerts": {
-              "success": "Thanks for your support!"
+              "success": "Merci pour votre  support!"
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "nom*"
+                "customTitle": "Nom*"
               },
               "email": {
                 "title": "Email",
@@ -2638,7 +2638,7 @@
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "telephone*"
+                "customTitle": "Telephone*"
               },
               "message": {
                 "title": "Message",
@@ -2646,7 +2646,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">envoyer</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envoyer</a>"
         },
         {
           "alias": "purity/components",
@@ -2683,8 +2683,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99666222<br>",
+          "text1": "<strong>Address</strong><strong><br></strong>Lycee Med.Arbi Chammeri<br>Ouardia<br>City: Tunis,Tunisia&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: Nouer.Elhoude22@Gmail.com<br>\nPhone: 99-666-222<br>",
           "text3": ""
         },
         {
@@ -2813,7 +2813,7 @@
             "showArrow": true
           },
           "title": "Outils<br>",
-          "text": "Logiciels, nous ne sommes pas allés vraiment profond parce que nous n'avions pas les ressources ni le temps d'investir dans un meilleur logiciel, c'est pourquoi nous avons seulement besoin d'un logiciel d'édition d'image et de logiciels de dévelopement web qui a vraiment contribué à rendre notre travail beaucoup plus facile . Bien sûr, l'éditeur HTML Mobirise (payant) avec Bootstrap 4 et google web polices.&nbsp;<br>",
+          "text": "<br>En ce qui concerne ce côté, nous avons maintenu des outils simples mais professionnel et efficaces, c'est pourquoi nous avons utilisé un logiciel d'édition d'image et de dévelopement web qui a vraiment contribué à rendre notre travail beaucoup plus facile . Bien sûr, l'éditeur HTML Mobirise (payant) avec Bootstrap 4 et google web polices.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>"
         },
         {
@@ -2965,8 +2965,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><strong><br></strong>lycee Med.Arbi Chammeri<br>ouardia<br>\nCity: tunis,tunisia&nbsp;",
-          "text2": "<strong>Contacts</strong><br>\nEmail: nouer.elhoude22@gmail.com<br>\nPhone: 99,666,222<br>",
+          "text1": "<strong>Address</strong><strong><br></strong>Lycee Med.Arbi Chammeri<br>Ouardia<br>City: Tunis,Tunisia&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: Nouer.Elhoude22@Gmail.com<br>\nPhone: 99-666-222<br>",
           "text3": ""
         },
         {
